@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage{lipsum}
+\usepackage{cite}
+\begin{document}
+ \begin{titlepage}
+  \begin{center}
+  \line(1,0){300}\\
+  [0.25in]
+  \huge{\bfseries MAKERERE UNIVERSITY\\
+  COLLEGE OF COMPUTING AND INFORMATICS TECHNOLOGY\\
+  RESEARCH METHODOLOGY}\\
+  [2mm]
+  \line(1,0){200}\\
+  [1.5cm]
+  \textsc{\LARGE A LITERATURE REVIEW }\\
+  [0.5CM]
+  \textsc{\Large On CLOUD STORAGE}\\
+  [2cm]
+  \end{center}
+  \begin{flushright}
+  \textsc{\Large NYANZI ALLAN\\
+  16/U/997\\
+  216001149\\}
+\end{flushright}   
+  \end{titlepage}
+\section{Introduction}
+Cloud storage is a simple and scalable way to store, access, and share data over the Internet. Cloud storage providers such as Amazon Web Services own and maintain the network-connected hardware and software, while you provision and use what you need via a web application.
+
+ Using cloud storage eliminates the acquisition and management costs of buying and maintaining your own storage infrastructure.\cite{r1}
+  
+  \subsection{How It Works}
+  
+Cloud storage systems generally rely on hundreds of data servers. Because computers occasionally require maintenance or repair, it's important to store the same information on multiple machines. This is called redundancy. Without redundancy, a cloud storage system couldn't ensure clients that they could access their information at any given time. Most systems store the same data on servers that use different power supplies. That way, clients can access their data even if one power supply fails.\cite{r2}
+
+Commercial cloud storage systems encode each user’s data with a specific encryption key.
+
+
+\section{Why cloud storage is important}
+\begin{itemize}
+\item Data encryption
+\item It pays to have a back-up
+\item Its easier to share and access files.
+\end{itemize}  \cite{r3}
+Spotify uses Google Cloud Storage for storing and serving music. Using Regional storage allows Spotify to run audio transcoding in Google Compute Engine close to production storage.\cite{r4}
+
+\section{Risks Involved}
+Cloud storage security is now hugely popular. A recent survey showed that 95% of IT professionals are using cloud storage.
+
+ It's estimated that 2.3 billion people will be using cloud storage by 2020.\cite{r5}
+ 
+ As cloud storage becomes more common, data security is an increasing concern.
+ 
+ Some of the security risks of using cloud storage;
+ \begin{itemize}
+\item Data leakage 
+\item No control over data
+\item Snooping
+ \end{itemize}\cite{r6}
+ 
+ \bibliographystyle{IEEEtran}
+ \bibliography{file:///C:/Users/Kracker Alan/References.bbl}
+ @article{r1,
+name = "https://aws.amazon.com"}
+
+@article{r2,
+name = "https://computer.howstuffworks.com/cloud-computing/cloud-storage"}
+
+@article{r3,
+author = {Geoff Bourgeois},
+title = {Why cloud storage is important?}
+}
+@InProceedings{r4,
+author = {Jyrki Pulliainen},
+title = {Software Engineer, Spotify}
+}
+
+
+@article{r5,
+author = @Misc{"https://www.rightscale.com"}}
+
+
+@book{r6,
+author = "@Book{Kan Yang,
+ALTauthor = {Xiaohua Jia},
+title = {Security for Cloud Storage Systems}
+}
+
+ \end{document}
